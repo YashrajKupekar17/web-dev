@@ -1,0 +1,78 @@
+<!-- FILEPATH: /c:/Users/DELL/Desktop/webdevproject/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Favicon -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <!-- Page title -->
+    <title>Frontend quiz app</title>
+
+    <!-- External CSS file -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main id="main-container" class="main-container">
+      <!-- Navigation bar -->
+      <nav class="navbar" id="navbar">
+        <!-- Quiz topic section -->
+        <section id="quiz-topic" class="quiz-topic"></section>
+
+        <!-- Mode switch section -->
+        <section class="mode-switch" id="mode-switch">
+          <img src="assets/images/icon-sun-dark.svg" alt="dark mode" />
+          <div class="toggle-box" id="toggle-box">
+            <div class="toggle-btn"></div>x
+          </div>
+          <img src="assets/images/icon-moon-dark.svg" alt="light mode" />
+        </section>
+      </nav>
+
+      <!-- Hero section -->
+      <div class="hero">
+        <!-- Question section -->
+        <section class="question-section" id="question-section">
+          <h1>
+            <span>Welcome to the</span>
+            Frontend Quiz!
+          </h1>
+          <p class="pick">Pick a subject to get started.</p>
+        </section>
+
+        <!-- Answer section -->
+        <section class="answer-section" id="answer-section">
+          <button class="answer-btn" id="html">
+            <img src="assets/images/icon-html.svg" alt="html" /><span
+              >HTML</span
+            >
+          </button>
+          <button class="answer-btn" id="css">
+            <img src="assets/images/icon-css.svg" alt="css" /><span>CSS</span>
+          </button>
+          <button class="answer-btn" id="javascript">
+            <img src="assets/images/icon-js.svg" alt="javascript" /><span
+              >Javascript</span
+            >
+          </button>
+          <button class="answer-btn" id="accessibility">
+            <img
+              src="assets/images/icon-accessibility.svg"
+              alt="accessibility"
+            /><span>Accessibility</span>
+          </button>
+        </section>
+      </div>
+    </main>
+
+    <!-- JavaScript file (commented out) -->
+    <!-- <script type="module" src="script.js"></script> -->
+  </body>
+</html>
